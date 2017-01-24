@@ -1,0 +1,15 @@
+
+entity Fares {
+	flightNumber String,
+    flightDate String
+    fare String,
+	currency String
+}
+paginate Fares with pagination
+
+dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl 
+// Set an angular suffix
+angularSuffix * with pAppSuffix

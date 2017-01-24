@@ -1,0 +1,15 @@
+package com.bfa.faresms.repository;
+
+import com.bfa.faresms.domain.Fares;
+
+import org.springframework.data.jpa.repository.*;
+
+import java.util.List;
+
+/**
+ * Spring Data JPA repository for the Fares entity.
+ */
+@SuppressWarnings("unused")
+public interface FaresRepository extends JpaRepository<Fares,Long> {
+
+}
